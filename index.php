@@ -1,11 +1,11 @@
+<?php require('quote-logic.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <title>E-15 - Project 1</title>
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:700" rel="stylesheet">
 </head>
 
 <body>
@@ -24,8 +24,7 @@
 
   <h2>Quotes</h2>
 
-  <?php echo '<p>Random quote goes here</p>'; ?>
+  <blockquote><?=$quote?></blockquote>
 
 </body>
-
 </html>
